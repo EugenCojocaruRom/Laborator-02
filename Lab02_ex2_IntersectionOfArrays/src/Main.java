@@ -41,8 +41,7 @@ public class Main {
         displayB(B);
         //Method for calculating array C - intersection of A and B
         calculateC(A, B);
-        //Method for displaying array C
-//        displayC(C);
+
     }
 
     //Define method for reading and displaying array A
