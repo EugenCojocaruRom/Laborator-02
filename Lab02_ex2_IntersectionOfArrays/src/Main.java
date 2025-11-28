@@ -44,7 +44,7 @@ public class Main {
 
     }
 
-    //Define method for reading and displaying array A
+    //Define method for reading array A
     static int[] readA(int[] A, Scanner sc) {
         //Loop through array A from i = 0 to length of A, incrementing i by 1
         for (int i = 0; i < A.length; ++i) {
