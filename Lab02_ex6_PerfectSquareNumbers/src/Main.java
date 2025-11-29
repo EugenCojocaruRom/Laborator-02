@@ -55,9 +55,11 @@ public class Main {
         System.out.print("The values of array B are: ");
         //Loop through array B from i = 0 to length of B, incrementing i by 1
         for (int i = 0; i < A.length; ++i) {
+            //Declare variable x of type double, equal to the square root of an element of array A
             double x = (double) Math.sqrt(A[i]);
-            //Set condition to check if an element of A is a perfect square
+            //Set condition to check if x is a perfect square root of an element of array A
             if (x % 2 == 0 || x % 2 == 1) {
+                //Set the element of array B as equal to the element of array A
                 B[i] = A[i];
                 //Display the values of array B
                 System.out.print(B[i] + ", ");
