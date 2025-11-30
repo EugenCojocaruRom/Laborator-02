@@ -45,7 +45,7 @@ public class Main {
     //Define method for displaying array A
     static int[][] displayA(int[][] A) {
         //Display the first part of the label for array A
-        System.out.print("The values of array A are: ");
+        System.out.print("The values of array A are: \n");
         //Loop through each row of array A
         for (int[] row : A) {
             //Inside this loop --> loop through each element on each row
@@ -53,6 +53,8 @@ public class Main {
                 //Display values of A
                 System.out.print(x + ", ");
             }
+            //Display each row on a separate line
+            System.out.println();
         }
         //Display an empty line
         System.out.println(" ");
